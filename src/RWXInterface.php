@@ -1,11 +1,13 @@
 <?php
 namespace Nonagod\Abstractions;
 
+use Nonagod\Abstractions\ManyActionAbstractionInterface;
+
 /**
  * Interface RWXInterface
  * @package Nonagod\Abstractions
  */
-interface RWXInterface extends ManyActionAnstractionInterface {
+interface RWXInterface extends ManyActionAbstractionInterface {
     /**
      * @param string $from - what to read from
      * @return mixed
