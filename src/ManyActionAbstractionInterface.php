@@ -1,6 +1,10 @@
 <?php
 namespace Nonagod\Abstractions;
 
+/**
+ * Interface ManyActionAbstractionInterface
+ * @package Nonagod\Abstractions
+ */
 interface ManyActionAbstractionInterface {
     /**
      * Method using for call same action many times
